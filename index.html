@@ -4,8 +4,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>App_Showcase_Website_Tailwind</title>
+    <!-- favicon add here  -->
+    <link rel="icon" type="image/x-icon" href="./assets/logo-3.png">
+    <!-- Css style file link Here  -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Tailwind CDN file link Here  -->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+    <!--! header file start here  -->
+    <header class="text bg-[#0E1133]">
+        <nav class="container mx-auto text-white flex items-center justify-between py-6 lg:px-24">
+            <div class="flex">
+                <div class="justify-center items-center px-5">
+                    <img src="./assets/logo-3.png" alt="">
+                </div>
+
+                <div class="space-x-4 text-lg hidden lg:flex">
+                    <a class="hover:text-orange-500 duration-10" href="">Home</a>
+                    <a class="hover:text-orange-500 duration-10" href="">About</a>
+                    <a class="hover:text-orange-500 duration-10" href="">Service</a>
+                    <a class="hover:text-orange-500 duration-10" href="">Blog</a>
+                    <a class="hover:text-orange-500 duration-10" href="">Contact</a>
+                </div>
+            </div>
+            <div class="space-x-4 hidden lg:flex">
+                <button class="">Log In</button>
+                <button class="bg-orange-400 text-lg p-2 rounded hover:bg-transparent border-2 border-orange-400 duration-300">Get Started</button>
+            </div>
+            <div class="w-8 lg:hidden">
+                <img src="./assets/more.png" alt="">
+            </div>
+        </nav>
+    </header>
+    <!-- header file end here  -->
+    <!--! main start here  -->
+    <main class="bg-[#12174e] pt-24 text-white flex flex-col justify-center items-center text-center">
+        <section class="mx-auto space-y-4">
+                <h1 class="text-8xl">Creative Way to Showcase Your <span class="text-orange-700">App</span></h1>
+                <p class="opacity-55 text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nesciunt quas laborum ducimus, explicabo cupiditate!</p>
+            
+            <div class="space-x-4 flex justify-center items-center">
+                <button class="text-lg p-2 rounded hover:bg-orange-400 border-2 border-orange-400 duration-300">Get started</button>
+                <button class="flex gap-3"><img src="./assets/play-button.png" alt=""> Play Video</button>\
+            </div>
+        </section>
+        <div class="translate-y-24 lg:translate-y-56 md:translate-y-36">
+            <img src="./assets/hero-thumb-4.png" alt="">
+        </div>
+    </main>
+    <section class="my-48">
+        <div class="text-center mb-24">
+            <h1 class="text-7xl font-bold opacity-70 mb-6">
+                What you can do
+            </h1>
+            <p class="w-[50%] mx-auto opacity-70 text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum molestiae ad totam quibusdam. Officiis vitae alias provident sit perspiciatis?</p>
+        </div>
+        <div class="container mx-auto lg:px-24 px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                <div class="shadow-xl rounded p-8">
+                    <div class="w-20 h-20 rounded-full bg-green-400 mx-auto flex items-center justify-center">
+                        <img src="./assets/play-store.png" alt="">
+                    </div>
+                    <div class="text-center space-y-4 pt-2">
+                        <h6 class="text-xl font-semibold opacity-70">Easy to use</h6>
+                        <p class="text-lg opacity-70">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui officia ut eum..</p>
+                        <button class="p-3 rounded-lg hover:bg-green-400 border-2 border-green-400 duration-300">Read More...</button>
+                    </div>
+                </div>
+                <div class="shadow-2xl rounded p-8">
+                    <div class="w-20 h-20 rounded-full bg-yellow-400 mx-auto flex items-center justify-center">
+                        <img src="./assets/play-store.png" alt="">
+                    </div>
+                    <div class="text-center space-y-4 pt-2">
+                        <h6 class="text-xl font-semibold opacity-70">Easy to use</h6>
+                        <p class="text-lg opacity-70">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui officia ut eum..</p>
+                        <button class="p-3 rounded-lg hover:bg-yellow-400 border-2 border-yellow-400 duration-300">Read More...</button>
+                    </div>
+                </div>
+                <div class="shadow-xl rounded p-8">
+                    <div class="w-20 h-20 rounded-full bg-blue-400 mx-auto flex items-center justify-center">
+                        <img src="./assets/play-store.png" alt="">
+                    </div>
+                    <div class="text-center space-y-4 pt-2">
+                        <h6 class="text-xl font-semibold opacity-70">Easy to use</h6>
+                        <p class="text-lg opacity-70">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui officia ut eum..</p>
+                        <button class="p-3 rounded-lg hover:bg-blue-400 border-2 border-blue-400 duration-300">Read More...</button>
+                    </div>
+                </div>
+                <div class="shadow-xl rounded p-8">
+                    <div class="w-20 h-20 rounded-full bg-purple-400 mx-auto flex items-center justify-center">
+                        <img src="./assets/play-store.png" alt="">
+                    </div>
+                    <div class="text-center space-y-4 pt-2">
+                        <h6 class="text-xl font-semibold opacity-70">Easy to use</h6>
+                        <p class="text-lg opacity-70">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui officia ut eum..</p>
+                        <button class="p-3 rounded-lg hover:bg-purple-400 border-2 border-purple-400 duration-300">Read More...</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- main end Here  -->
+    <!-- ! Footer start here  -->
+    <footer>
+        
+    </footer>
+    <!-- Footer end here  -->
 </body>
 </html>
