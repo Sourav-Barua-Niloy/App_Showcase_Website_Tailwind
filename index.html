@@ -32,8 +32,17 @@
                 <button class="">Log In</button>
                 <button class="bg-orange-400 text-lg p-2 rounded hover:bg-transparent border-2 border-orange-400 duration-300">Get Started</button>
             </div>
-            <div class="w-8 lg:hidden">
-                <img src="./assets/more.png" alt="">
+            <div class="w-8 lg:hidden relative">
+                <img src="./assets/more.png" alt="Menu" onclick="toggleMenu()" class="cursor-pointer">
+                    <div id="menu" class="hidden absolute top-full mt-2 bg-white text-black p-3 shadow-lg rounded">
+                        <ul>
+                            <a class="hover:text-orange-500 duration-10" href="">Home</a>
+                            <a class="hover:text-orange-500 duration-10" href="">About</a>
+                            <a class="hover:text-orange-500 duration-10" href="">Service</a>
+                            <a class="hover:text-orange-500 duration-10" href="">Blog</a>
+                            <a class="hover:text-orange-500 duration-10" href="">Contact</a>
+                        </ul>
+                    </div>
             </div>
         </nav>
     </header>
@@ -111,5 +120,12 @@
         
     </footer>
     <!-- Footer end here  -->
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById("menu");
+            menu.classList.toggle("hidden");
+        }
+    </script>
 </body>
 </html>
